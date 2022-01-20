@@ -1,14 +1,9 @@
 // This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-
-  apiUrls: {
-    quote: '', // Put here your QUOTE API BASE URL. E.g.: api or https://quote.com/api
-    share: '', // Put here your SHARE API BASE URL. E.g.: api or https://share.com/api
-  },
+  production: false
 };
 
 /*
@@ -18,4 +13,4 @@ export const environment = {
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
  */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.

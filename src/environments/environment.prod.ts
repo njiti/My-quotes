@@ -1,7 +1,3 @@
 export const environment = {
-  production: true,
-
-  apiUrls: {
-    quote: '',
-  },
+  production: true
 };
